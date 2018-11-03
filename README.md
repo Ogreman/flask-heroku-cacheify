@@ -92,14 +92,15 @@ Flask app:
 
 How does this work?  In the background, `flask-heroku-cacheify` is really just
 automatically configuring the popular
-[Flask-Cache](http://pythonhosted.org/Flask-Cache/) extension!  This means, you
+[Flask-Caching](https://pythonhosted.org/Flask-Caching/) extension!  This means, you
 can basically skip down to [this
-part](http://pythonhosted.org/Flask-Cache/#caching-view-functions) of their
+part](https://pythonhosted.org/Flask-Caching/#caching-view-functions) of their
 documentation, and begin using all the methods listed there, without worrying
 about setting up your caches!  Neat, right?
 
 For more information and examples of how to use your cache, don't forget to read
-the [Flask-Cache](http://pythonhosted.org/Flask-Cache/) documentation.
+the [Flask-Cachiny](https://pythonhosted.org/Flask-Caching/) documentation.
+ *Note: Flask-Heroku-Cacheify was updated in v1.7.0 to depend on Flask-Caching which is an active fork of the now dormant Flask-Cache package.*s
 
 
 ## Like This?

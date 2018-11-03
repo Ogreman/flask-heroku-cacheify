@@ -7,7 +7,7 @@ setup(
 
     # Basic package information:
     name = 'Flask-Heroku-Cacheify',
-    version = '1.6.1',
+    version = '1.7.0',
     py_modules = ('flask_cacheify', ),
 
     # Packaging options:
@@ -16,7 +16,7 @@ setup(
 
     # Package dependencies:
     install_requires = [
-        'Flask-Cache>=0.11.1',
+        'Flask-Caching>=1.4.0',
         'pylibmc>=1.2.3',
         'redis>=2.7.2'
     ],
